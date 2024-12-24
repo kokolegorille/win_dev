@@ -1,0 +1,28 @@
+{
+  "name": "win_dev",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development rspack serve",
+    "build": "cross-env NODE_ENV=production rspack build",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.1.1",
+    "@tauri-apps/plugin-shell": "^2.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.1.8",
+    "@rspack/core": "^1.1.8",
+    "@rspack/plugin-react-refresh": "1.0.1",
+    "@tauri-apps/cli": "^2.1.0",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "cross-env": "^7.0.3",
+    "react-refresh": "^0.16.0",
+    "sass-embedded": "^1.83.0",
+    "sass-loader": "^16.0.4"
+  }
+}
